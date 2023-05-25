@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calcuator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Age Calculator</h1>
+      <div class="form">
+        <label for="birthday"> Enter your date of birth </label>
+        <input
+          type="date"
+          id="calendar"
+          name="calendar"
+          data-testid="input-calender-dates"
+        />
+        <button
+          id="btn-calc-age"
+          name="btn-calc-age"
+          data-testid="btn-calc-age"
+        >
+          Calculate Age
+        </button>
+        <p id="result">Your age is 21 years old</p>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
